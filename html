@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сучасний сайт</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Навігація -->
+    <header class="navbar">
+        <div class="logo">Мій Сайт</div>
+        <nav>
+            <ul>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#services">Послуги</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Головний екран -->
+    <section class="hero">
+        <h1>Ласкаво просимо!</h1>
+        <p>Створюємо якісні та сучасні сайти</p>
+        <button id="contactBtn">Зв'язатися</button>
+    </section>
+
+    <!-- Блок "Про нас" -->
+    <section id="about" class="section">
+        <h2>Про нас</h2>
+        <p>Ми команда професіоналів, які створюють ефективні сайти.</p>
+    </section>
+
+    <!-- Блок "Послуги" -->
+    <section id="services" class="section">
+        <h2>Наші послуги</h2>
+        <div class="service">
+            <h3>Розробка сайтів</h3>
+            <p>Створюємо адаптивні та швидкі веб-сайти.</p>
+        </div>
+        <div class="service">
+            <h3>SEO-оптимізація</h3>
+            <p>Допомагаємо сайту займати топові позиції у Google.</p>
+        </div>
+    </section>
+
+    <!-- Контактна форма -->
+    <section id="contact" class="section">
+        <h2>Зв'яжіться з нами</h2>
+        <form>
+            <input type="text" placeholder="Ваше ім'я" required>
+            <input type="email" placeholder="Ваш Email" required>
+            <button type="submit">Відправити</button>
+        </form>
+    </section>
+
+    <!-- Модальне вікно -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Зв'яжіться з нами</h2>
+            <p>Заповніть форму, і ми зв’яжемося з вами!</p>
+        </div>
+    </div>
+
+</body>
+</html>
