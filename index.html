@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сучасний сайт</title>
+    <title>Адаптивний сайт</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
@@ -13,11 +13,12 @@
     <header class="navbar">
         <div class="logo">Мій Сайт</div>
         <nav>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="#about">Про нас</a></li>
                 <li><a href="#services">Послуги</a></li>
                 <li><a href="#contact">Контакти</a></li>
             </ul>
+            <div class="burger">&#9776;</div>
         </nav>
     </header>
 
@@ -28,22 +29,28 @@
         <button id="contactBtn">Зв'язатися</button>
     </section>
 
-    <!-- Блок "Про нас" -->
+    <!-- Про нас -->
     <section id="about" class="section">
         <h2>Про нас</h2>
-        <p>Ми команда професіоналів, які створюють ефективні сайти.</p>
+        <p>Ми команда розробників, які створюють ефективні сайти.</p>
     </section>
 
-    <!-- Блок "Послуги" -->
-    <section id="services" class="section">
+    <!-- Послуги -->
+    <section id="services" class="services">
         <h2>Наші послуги</h2>
-        <div class="service">
-            <h3>Розробка сайтів</h3>
-            <p>Створюємо адаптивні та швидкі веб-сайти.</p>
-        </div>
-        <div class="service">
-            <h3>SEO-оптимізація</h3>
-            <p>Допомагаємо сайту займати топові позиції у Google.</p>
+        <div class="services-grid">
+            <div class="service">
+                <h3>Розробка сайтів</h3>
+                <p>Створюємо адаптивні та швидкі веб-сайти.</p>
+            </div>
+            <div class="service">
+                <h3>SEO-оптимізація</h3>
+                <p>Допомагаємо сайту займати топові позиції у Google.</p>
+            </div>
+            <div class="service">
+                <h3>Дизайн</h3>
+                <p>Гарний та зручний дизайн для вашого бізнесу.</p>
+            </div>
         </div>
     </section>
 
